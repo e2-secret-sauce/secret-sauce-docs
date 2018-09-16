@@ -1,6 +1,6 @@
-# Page settings
+ # Page settings
 baseurl = "localhost:1313"
-title = "Elate theme"
+title = "Secret Sauce"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
 
@@ -14,13 +14,13 @@ theme = "hugo-elate-theme"
   email = ""
   # Navigation
   [params.navigation]
-    brand = "Elate"
+    brand = "Secret Sauce"
     home = "Home"
-    work = "Work"
-    testimonials = "Testimonials"
-    services = "Services"
-    about = "About"
-    contact = "Contact"
+    what = "What is Secret Sauce?"
+    how = "How it Works"
+    features = "Features & Benefits"
+    partners = "Partners"
+    faqs = "FAQs"
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
@@ -39,244 +39,149 @@ theme = "hugo-elate-theme"
   
   # Hero section
   [params.hero]
-    title = "Do something you love."
-    subtitle = 'Another free HTML5 bootstrap template by <a href="http://freehtml5.co/" target="_blank" title="Free HTML5 Bootstrap Templates">FREEHTML5.co</a> released under <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons 3.0</a><br> ported for Hugo by <a href="http://saey55.gitlab.io/pietercv" target="_blank">Pieter Saey</a>'
+    title = "Data is your asset. Not your liability"
+    subtitle = 'Secret Sauce will protect your data in the cloud.'
  
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
 
   [[params.intro.item]]
-    title = "Plan"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "The Problem"
+    description = "The inability to use the public cloud blocks you from responding to market opportunities, hinders innovation and prevents you from scaling effectively."
     url = "#"
-    button = "Get In Touch"
-    icon = "icon-bulb"
+    button = "Detailed Problem Statement"
+    icon = "icon-puzzle"
     img = "img_7.jpg"
 
   [[params.intro.item]]
-    title = "Develop"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Our Vision"
+    description = "Develop a pre-authorized path for private information to be analyzed in the public cloud without losing the richness of the data."
     url = "#"
-    button = "Click Me"
-    icon = "icon-wrench"
+    button = "Learn More"
+    icon = "icon-bulb"
     img = "img_8.jpg"
 
   [[params.intro.item]]
-    title = "Launch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "The Solution"
+    description = "Working with approved encryption techniques of the firm (K-Anonymity, HMAC and AES + GCM) we will ensure a secure cloud experience."
     url = "#"
-    button = "Why us?"
-    icon = "icon-rocket"
+    button = "Proof of Concept"
+    icon = "icon-lock"
     img = "img_10.jpg"
 
-  [params.intro.video]
-    enable = true
-    title = "Watch the video"
-    icon = "icon-play2"
-    url = "https://vimeo.com/channels/staffpicks/93951774"
-
-
   # Work section
-  [params.work]
-    enable = true
-    title = "Work"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
-
-    [[params.work.row]]
+  [params.what]
+    enable = false
+    title = "What is Secret Sauce?"
+    description = "Secret Sauce is a tool to encrypt your PI data and send it to the Cloud for analytics. Using an industry standard approach to data protection, we are developing a certified path to the public cloud."
+    
+    [[params.what.row]]
       img = "work_1.jpg"
       alt = "Image2"
-      title = "Project 1"
-      subtitle = "Branding"
+      title = "De-Identify & Encrypt"
 
-    [[params.work.row]]
+    [[params.what.row]]
       img = "work_2.jpg"
       alt = "Image2"
-      title = "Project 2"
-      subtitle = "Design"
+      title = "Machine Learning in the Public Cloud"
 
-    [[params.work.row]]
+    [[params.what.row]]
       img = "work_3.jpg"
       alt = "Image3"
-      title = "Project 3"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_4.jpg"
-      alt = "Image4"
-      title = "Project 4"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_5.jpg"
-      alt = "Image5"
-      title = "Project 5"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_6.jpg"
-      alt = "Image6"
-      title = "Project 6"
-      subtitle = "Design"
+      title = "Re-Identify"
 
   # Testimonials section
-  [params.testimonials]
+  [params.how]
     enable = true
-    title = "Testimonials"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
-      person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person1.jpg"
-      alt = "Person1"
-
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
-      person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person2.jpg"
-      alt = "Person2"
-
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
-      person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person3.jpg"
-      alt = "Person3"
-    
-
-
+    title = "How it Works"
+    description = "In our proof of concept we take a fictional data set and ecrypt the PI data. We then attempt to learn which zip code has the most French speaking residents."
 
   # Services section
-  [params.services]
+  [params.features]
     enable = true
-    title = "Services"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Features & Benefits"
+    description = "What we can we currently. What are we planning to do. How this will help the organization."
 
-    [[params.services.item]]
-      title = "Brand &amp; Strategy"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-anchor"
+    [[params.features.item]]
+      name = "Encryption of PI Data"
+      description = "Using the AES/GCM encryption algorithim we can encrypt PI data prior to sending it to the cloud."
+    
+    [[params.features.item]]
+      name = "Structure & Richness of  Data"
+      description = "In addition to encryption we are employing de-identification with HMAC when un-encrypting the data is not required."
+    
+    [[params.features.item]]
+      name = "API Driven Key Management"
+      description = "We are workig with the Data Protection team to integrate with the Ionic tool for key management and key distribution to authorized endpoints."
+    
+    [[params.features.item]]
+      name = "PCSS Compliance"
+      description = "We'll ensure all Public Cloud Security Standards are met including encryption of highly confidental data at rest."      
+    
+    [[params.features.item]]
+      name = "Stop Guessing Capacity"
+      description = "When you make a capacity decision prior to deployment, you often overestimate your needs and end up sitting on expensive idle resources."      
+    
+    [[params.features.item]]
+      name = "Elasticity"
+      description = "By leveraging the public cloud for our compute power we can scale up for down as required with only a few minutes notice."      
+    
+  # Services section
+  [params.partners]
+    enable = true
+    title = "Partners"
+    description = "A problem this size can't be solved alone. We also aren't the first to try. We are in collaboration with others."
 
-    [[params.services.item]]
-      title = "Web &amp; Interface"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-layers2"
-    [[params.services.item]]
-      title = "Photo &amp; Video"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-video2"
+    [[params.partners.item]]
+      title = "Cybersecurity &amp; Risk"
+      description = "Workign with our cyber partners to ensure we are using the most secure encryption techniques."
+      icon = "icon-badge"
 
-      [[params.services.item]]
-      title = "CMS &amp; eCommerce"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
-      icon = "icon-monitor"
+    [[params.partners.item]]
+      title = "Legal"
+      description = "Regional jurisdiction requires different precautions when handling PII. Collaboration with our legal team is critical to ensure we are in compliance with all local laws."
+      icon = "icon-people"
+
+    [[params.partners.item]]
+      title = "Data Protection Team"
+      description = "We've joined efforts with the data protection team who are currently working on a key management solution."
+      icon = "icon-key"
+
+    [[params.partners.item]]
+      title = "Cloud Council"
+      description = "We'll be working with them in the near future. Stay tuned..."      
+      icon = "icon-cloud-upload"
 
   # About section
-  [params.about]
+  [params.faqs]
     enable = true
-    title = "About"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Frequently Asked Questions"
+    description = "We understand data security is a sensitive topic and we know you have questions."
 
-    [[params.about.item]]
-      name = "Jean Smith"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person1.jpg"
-      alt = "Person1"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
-      ]
+  [[params.faqs.item]]
+      question = "Why can't I just run analytics in-house, why risk the public cloud?"
+      answer = "Do you have the hardware and do you know how much you need? If so how long does it take to provision it?"      
 
-    [[params.about.item]]
-      name = "Rob Smith"
-      position = "Web Developer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person2.jpg"
-      alt = "Person2"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
-      ]
+  [[params.faqs.item]]
+      question = "Is Secret Sauce limited to securing data for analytics? Can I run my application in the public cloud with it?"
+      answer = "Running an application in the cloud is out of scope at this time. Secret Sauce is currently focused on securing data for analytics and machine learning."      
 
-    [[params.about.item]]
-      name = "Larry Ben"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person3.jpg"
-      alt = "Person3"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
-      ]      
+  [[params.faqs.item]]
+      question = "How do you know this solution will perform?"
+      answer = "These techniques do increase the data size and processing time. The cloud will allow us to allocate the level of compute power we need."      
 
-  # Counters section
-  [params.counters]
-    enable = true
-    title = "Stats"
-    background = "full_image_1.jpg"
+  [[params.faqs.item]]
+      question = "How are ou protecting your keys?"
+      answer = "We are integrating with our internal Hera Keystore. This keystore is protected in the firm. No keys are transmitted outside of the company."      
 
-    [[params.counters.item]]
-      description = "Finished projects"
-      icon = "icon-briefcase"
-      from = 0
-      to = 89
-      interval = 50
-      speed = 5000
-
-    [[params.counters.item]]
-      description = "Lines of code"
-      icon = "icon-code"
-      from = 0
-      to = 2343409
-      interval = 50
-      speed = 5000
-
-    [[params.counters.item]]
-      description = "Cups of coffee"
-      icon = "icon-cup"
-      from = 0
-      to = 1302
-      interval = 50
-      speed = 5000
-
-    [[params.counters.item]]
-      description = "Happy clients"
-      icon = "icon-people"
-      from = 0
-      to = 52
-      interval = 50
-      speed = 5000
-
-  # Contact section
-  [params.contact]
-    enable = true
-    map = true
-    form = true
-    title = "Get in touch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    
-    # Available icons: http://simplelineicons.com/
-    details = [
-        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
-        ["icon-phone", "(123) 465-6789"],
-        ["icon-envelope", "info@freehtml5.co"],
-        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
-      ]
-
-    name = "Name"
-    email = "Email"
-    phone = "Phone"
-    message = "Message"
-    button = "Send message"
+  [[params.faqs.item]]
+      question = "How do you know data wasn't compromised while it was outside of our walls?"
+      answer = "We are using HMAC and AES GCM encryption. These methods both gurantee the data is not altered."      
 
   # Footer section
   [params.footer]
-    enable = true
+    enable = false
     copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
     links = [
         ["icon-twitter", "#twitter"],

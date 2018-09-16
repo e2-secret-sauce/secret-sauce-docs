@@ -14,28 +14,24 @@
 		
         {{ partial "intro.html" .}}
 
-		{{ if .Site.Params.work.enable }}
-       		{{ partial "work.html" .}}
+		{{ if .Site.Params.what.enable }}
+       		{{ partial "what.html" .}}
        	{{ end }}
 
-		{{ if .Site.Params.testimonials.enable }}
-        	{{ partial "testimonials.html" .}}
+		{{ if .Site.Params.how.enable }}
+        	{{ partial "how.html" .}}
 		{{ end }}
 
-		{{ if .Site.Params.services.enable }}
-        	{{ partial "services.html" .}}
+		{{ if .Site.Params.features.enable }}
+        	{{ partial "features.html" .}}
 		{{ end }}
 
-		{{ if .Site.Params.about.enable }}
-        	{{ partial "about.html" .}}
+		{{ if .Site.Params.partners.enable }}
+        	{{ partial "partners.html" .}}
 		{{ end }}
 
-		{{ if .Site.Params.counters.enable }}
-        	{{ partial "counters.html" .}}
-        {{ end }}
-
-		{{ if .Site.Params.contact.enable }}
-        	{{ partial "contact.html" .}}
+		{{ if .Site.Params.faqs.enable }}
+        	{{ partial "faqs.html" .}}
         {{ end }}
 
         {{ if .Site.Params.footer.enable }}
