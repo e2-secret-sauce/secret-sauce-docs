@@ -48,7 +48,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "The Problem"
-    description = "The inability to use the public cloud blocks you from responding to market opportunities, hinders innovation and prevents you from scaling effectively."
+    description = "The inability to use the public cloud hinders innovation, scaling effectively and responding to market opportunities."
     url = "#"
     button = "Detailed Problem Statement"
     icon = "icon-puzzle"
