@@ -105,26 +105,32 @@ theme = "hugo-elate-theme"
 
     [[params.features.item]]
       name = "Encryption of PI Data"
+      position = ""
       description = "Using the AES/GCM encryption algorithim we can encrypt PI data prior to sending it to the cloud."
     
     [[params.features.item]]
       name = "Structure & Richness of  Data"
+      position = ""
       description = "In addition to encryption we are employing de-identification with HMAC when un-encrypting the data is not required."
     
     [[params.features.item]]
       name = "API Driven Key Management"
+      position = ""
       description = "We are workig with the Data Protection team to integrate with the Ionic tool for key management and key distribution to authorized endpoints."
     
     [[params.features.item]]
       name = "PCSS Compliance"
+      position = ""
       description = "We'll ensure all Public Cloud Security Standards are met including encryption of highly confidental data at rest."      
     
     [[params.features.item]]
       name = "Stop Guessing Capacity"
+      position = ""
       description = "When you make a capacity decision prior to deployment, you often overestimate your needs and end up sitting on expensive idle resources."      
     
     [[params.features.item]]
       name = "Elasticity"
+      position = ""
       description = "By leveraging the public cloud for our compute power we can scale up for down as required with only a few minutes notice."      
     
   # Services section
