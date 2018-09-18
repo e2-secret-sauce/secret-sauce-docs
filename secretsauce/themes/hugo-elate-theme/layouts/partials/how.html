@@ -8,22 +8,76 @@
 							<h3>{{ with .Site.Params.how.description }}{{ . | markdownify }}{{ end }}</h3>
 						</div>
 					</div>
-				</div>
-			</div>
-			<div class="row">
-			{{ range .Site.Params.how.item }}
-				<div class="col-md-4">
-					<div class="box-testimony">
-						<blockquote class="to-animate-2">
-							<p>{{ .quote | markdownify}}</p>
-						</blockquote>
-						<div class="author to-animate">
-							<figure><img src="images/{{ .img }}" alt="{{ .alt }}"></figure>
-							<p>{{ .person | markdownify }}</p>
+
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 subtext to-animate">
+							<table class="data-sample to-animate" style="float:left">
+								<thead>
+									<tr><th>Zip Code</th><th>Count</th></tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>87752</td>
+										<td>73</td>
+									</tr>
+									<tr>
+										<td>95534</td>
+										<td>74</td>
+									</tr>
+									<tr>
+										<td>51383</td>
+										<td>86</td>
+									</tr>																		
+								</tbody>
+							</table>
+							<i style="float:left;padding:15px" class="icon to-animate-2 icon-arrow-right-circle"></i>
+							<table class="data-sample to-animate" style="float:left">
+								<thead>
+									<tr><th>Zip Code (HMAC&rsquo;d)</th><th>Count</th></tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td align="left" id="data-sample-encrypted">17a4dcedbc39ea...</td>
+										<td>73</td>
+									</tr>
+									<tr>
+										<td align="left" id="data-sample-encrypted">b3f8fb19437ceo...</td>
+										<td>74</td>
+									</tr>
+									<tr>
+										<td align="left" id="data-sample-encrypted">03007d7e44d7c3f...</td>
+										<td>86</td>
+									</tr>																		
+								</tbody>
+							</table>
+							<i style="float:left;padding:10px" class="to-animate-2">OR</i>
+								<table class="data-sample to-animate" style="float:left">
+								<thead>
+									<tr><th>Zip Code (Encrypted)</th><th>Count</th></tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td align="left" id="data-sample-encrypted">q81c994ginim5op...</td>
+										<td>73</td>
+									</tr>
+									<tr>
+										<td align="left" id="data-sample-encrypted">o5RI05JOY+f76jg...</td>
+										<td>74</td>
+									</tr>
+									<tr>
+										<td align="left" id="data-sample-encrypted">k27Il7hAPpf51fv...</td>
+										<td>86</td>
+									</tr>																		
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 subtext to-animate-2">
+						
 						</div>
 					</div>
 				</div>
-			{{ end }}
 			</div>
 		</div>
 	</section>
