@@ -72,22 +72,22 @@ theme = "hugo-elate-theme"
 
   # Work section
   [params.what]
-    enable = false
+    enable = true
     title = "What is Secret Sauce?"
     description = "Secret Sauce is a tool to encrypt your PI data and send it to the Cloud for analytics. Using an industry standard approach to data protection, we are developing a certified path to the public cloud."
     
     [[params.what.row]]
-      img = "work_1.jpg"
+      img = "ingredient1.png"
       alt = "Image2"
       title = "De-Identify & Encrypt"
 
     [[params.what.row]]
-      img = "work_2.jpg"
+      img = "ingredient2.png"
       alt = "Image2"
       title = "Machine Learning in the Public Cloud"
 
     [[params.what.row]]
-      img = "work_3.jpg"
+      img = "ingredient3.png"
       alt = "Image3"
       title = "Re-Identify"
 

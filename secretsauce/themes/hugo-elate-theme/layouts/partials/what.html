@@ -5,7 +5,7 @@
 					<h2 class="to-animate">{{ with .Site.Params.what.title }}{{ . }}{{ end }}</h2>
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 subtext to-animate">
-							<h3>{{ with .Site.Params.what.description }}{{ . | markdownify }}{{ end }}</h3>
+							<h3>{{ with .Site.Params.what.description }}{{ . }}{{ end }}</h3>
 						</div>
 					</div>
 				</div>
@@ -27,7 +27,6 @@
 			</div>
 			<div class="row">
 				<div class="col-md-12 text-center to-animate">
-	<!-- 				<p>{{ .Site.Params.what.footertext | markdownify }}</p>  -->
 				</div>
 			</div>
 		</div>
