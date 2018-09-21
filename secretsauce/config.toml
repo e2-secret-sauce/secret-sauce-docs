@@ -178,7 +178,7 @@ theme = "hugo-elate-theme"
       answer = "These techniques do increase the data size and processing time. The cloud will allow us to allocate the level of compute power we need."      
 
   [[params.faqs.item]]
-      question = "How are ou protecting your keys?"
+      question = "How are you protecting your keys?"
       answer = "We are integrating with our internal Hera Keystore. This keystore is protected in the firm. No keys are transmitted outside of the company."      
 
   [[params.faqs.item]]
