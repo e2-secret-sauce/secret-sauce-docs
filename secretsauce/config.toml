@@ -74,7 +74,7 @@ theme = "hugo-elate-theme"
   [params.what]
     enable = true
     title = "What is Secret Sauce?"
-    description = "Secret Sauce is a tool to encrypt your PI data and send it to the Cloud for analytics. Using an industry standard approach to data protection, we are developing a certified path to the public cloud."
+    description = "Secret Sauce is a recipe to encrypt your PI data and send it to the Cloud for analytics. Using an industry standard approach to data protection, we are developing a certified path to the public cloud."
     
     [[params.what.row]]
       img = "ingredient1.png"
@@ -101,7 +101,7 @@ theme = "hugo-elate-theme"
   [params.features]
     enable = true
     title = "Features & Benefits"
-    description = "What we can we currently. What are we planning to do. How this will help the organization."
+    description = ""
 
     [[params.features.item]]
       name = "Encryption of PI Data"
